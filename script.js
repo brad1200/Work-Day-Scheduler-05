@@ -1,5 +1,5 @@
 // setting up todays date
-var today = moment().format('MMMM Do YYYY');
+var today = moment().format('dddd, MMMM Do');
 var currentDay = document.getElementById('currentDay');
 currentDay.innerHTML = today
 
